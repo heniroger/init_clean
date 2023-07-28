@@ -51,12 +51,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Tombo\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Tombo\\Tests\\": "tests/"
         }
     },
     "replace": {

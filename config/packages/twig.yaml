@@ -1,5 +1,10 @@
 twig:
-    default_path: '%kernel.project_dir%/templates'
+    default_path: '%kernel.project_dir%/src/Ramos/App/Resources/Templates'
+    paths:
+        '%kernel.project_dir%/src/Ramos/App/Resources/Templates' :  ~
+        # '%kernel.project_dir%//src/FCTA/App/Resources/Templates' :  ~
+        # '%kernel.project_dir%//src/Emit/App/Resources/Templates' :  ~
+
 
 when@test:
     twig:

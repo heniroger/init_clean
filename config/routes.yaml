@@ -1,5 +1,11 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# controllers:
+#     resource:
+#         path: ../src/Controller/
+#         namespace: Tombo\Ramos\App\Controller
+#     type: attribute
+
+
+
+ramos_controllers:
+    resource: ../src/Ramos/App/Controller/
+    type: annotation
